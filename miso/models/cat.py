@@ -1,8 +1,11 @@
 from dataclasses import asdict, dataclass
 from typing import Any
 
-from virtual_pet.models.food_opts import FOOD_OPTIONS
-from virtual_pet.models.play_opts import PLAY_OPTIONS
+from .food_opts import FOOD_OPTIONS
+from .play_opts import PLAY_OPTIONS
+
+MIN_STAT = 0
+MAX_STAT = 100
 
 @dataclass
 class Cat:
