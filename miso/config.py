@@ -5,6 +5,9 @@ from pathlib import Path
 # /Users/hayleyprince/Desktop/miso
 PROJECT_FOLDER = Path(__file__).resolve().parent.parent
 
+# The folder containing images and GIFs.
+ASSETS_FOLDER = PROJECT_FOLDER / "assets"
+
 # The folder where saved game data will be stored.
 DATA_FOLDER = PROJECT_FOLDER / "data"
 
